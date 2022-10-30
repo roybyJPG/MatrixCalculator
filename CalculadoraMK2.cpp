@@ -26,13 +26,13 @@ void transMatriz_Aleatoria(int fil, int col);
 void menu()
 {
 
-    cout << "\n         CALCULADORA DE MATRICES"
+    cout << "\n          CALCULADORA DE MATRICES"
          << "\n============================================"
-         << "\n1.- Suma de Matrices ................... (1)"
-         << "\n2.- Resta de Matrices .................. (2)"
-         << "\n3.- Multiplicacion de Matrices ......... (3)"
-         << "\n4.- Matriz Transpuesta ................. (4)"
-         << "\n5.- Terminar ........................... (5)"
+         << "\n1.- Suma de Matrices ................... (1)  ___ "
+         << "\n2.- Resta de Matrices .................. (2) |[_]|"
+         << "\n3.- Multiplicacion de Matrices ......... (3) |+ ;|"
+         << "\n4.- Matriz Transpuesta ................. (4) '---'"
+         << "\n5.- Terminar ........................... (5)      "
          << "\n============================================"
          << "\nSELECCIONA UNA OPCION: ";
 
@@ -485,3 +485,11 @@ void imprimirMatriz(int **M, int fil, int col)
     }
     cout<<"\n"<<endl;
 }
+
+//QUOD ERAT DEMONSTRANDUM
+
+//  ___  //
+// |[_]| //
+// |+ ;| //
+// `---' //
+//       //
